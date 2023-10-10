@@ -43,6 +43,20 @@ a href="http://www.youtube.com/watch?feature=player_embedded&v=M0hxF1skYvM" targ
 <h3>Installation:</h3>
 
 <p>Follow DRS developer readme.txt to setup python path.</p>
+<p>Set the these environment variables.</p>
+
+>
+    Mac OS X:
+    RESOLVE_SCRIPT_API="/Library/Application Support/Blackmagic Design/DaVinci Resolve/Developer/Scripting"
+    RESOLVE_SCRIPT_LIB="/Applications/DaVinci Resolve/DaVinci Resolve.app/Contents/Libraries/Fusion/fusionscript.so"
+    PYTHONPATH="$PYTHONPATH:$RESOLVE_SCRIPT_API/Modules/"
+
+    Windows:
+    RESOLVE_SCRIPT_API="%PROGRAMDATA%\Blackmagic Design\DaVinci Resolve\Support\Developer\Scripting"
+    RESOLVE_SCRIPT_LIB="C:\Program Files\Blackmagic Design\DaVinci Resolve\fusionscript.dll"
+    PYTHONPATH="%PYTHONPATH%;%RESOLVE_SCRIPT_API%\Modules\"
+>
+
 <p>Put Script folder to:</p>
 
 >
