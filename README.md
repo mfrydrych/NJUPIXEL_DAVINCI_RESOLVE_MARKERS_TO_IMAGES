@@ -43,7 +43,7 @@ a href="http://www.youtube.com/watch?feature=player_embedded&v=M0hxF1skYvM" targ
 <h3>Installation:</h3>
 
 <p>Follow DRS developer readme.txt to setup python path.</p>
-<p>Set the these environment variables.</p>
+<p>Set the environment variables.</p>
 
 >
     Mac OS X:
