@@ -1,0 +1,5 @@
+/.DS_Store
+img/proj/app.psd
+python_module/__pycache__
+python_module/gui_main.ui
+python_module/gui_about.ui
