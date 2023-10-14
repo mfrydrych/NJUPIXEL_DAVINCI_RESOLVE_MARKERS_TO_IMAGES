@@ -9,6 +9,7 @@
 
 ---
 
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=M0hxF1skYvM" target="_blank">
  <img src="http://img.youtube.com/vi/M0hxF1skYvM/mqdefault.jpg" alt="Watch the video" width="1024" height="576" border="10" />
 </a>
 
