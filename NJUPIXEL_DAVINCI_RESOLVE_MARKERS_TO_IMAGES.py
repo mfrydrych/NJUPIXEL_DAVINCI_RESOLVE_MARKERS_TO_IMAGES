@@ -230,7 +230,7 @@ class MainProgramClass(QWidget, Ui_MAIN_WINDOW):
             markers = current_timeline.GetMarkers()
             current_timecode = current_timeline.GetCurrentTimecode()
             offset = current_timeline.GetStartFrame()
-            fps = int(float(current_project.GetSetting("timelineFrameRate")))
+            fps = int(float(current_timeline.GetSetting("timelineFrameRate")))
             is_current_timeline_interlace = current_timeline.GetSetting(
                 "timelineInterlaceProcessing"
             )
