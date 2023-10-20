@@ -253,7 +253,7 @@ class Ui_ABOUT_WINDOW(object):
         self.label_info_1.setText(
             QCoreApplication.translate(
                 "ABOUT_WINDOW",
-                "NJUPIXEL - DaVinci Resolve Markers To Images - v 1.01",
+                "NJUPIXEL - DaVinci Resolve Markers To Images - v 1.01-(20.10.23)",
                 None,
             )
         )
